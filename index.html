@@ -1,0 +1,39 @@
+<head>
+    <style>
+        #Box {
+            height: 300px;
+            width: 300px;
+        }
+
+        #Box2 {
+            height: 300px;
+            width: 300px;
+        }
+
+        #maincont {
+            text-align: center;
+            
+        }
+        button{
+            padding: 1%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="maincont">
+        <label for="lang">Please select a Lang</label>
+        <select name="lang" id="Langs" onchange="getTheValu()"></select>
+        <br>
+        <br>
+        <textarea id="Box" rows="10" cols="50">
+
+        </textarea>
+        <textarea id="Box2" rows="10" cols="50">
+
+        </textarea>
+        <br>
+        <button onclick="getthevalu()">translate</button>
+    </div>
+</body>
+<script src="main.js"></script>
