@@ -12,9 +12,10 @@
 
         #maincont {
             text-align: center;
-            
+
         }
-        button{
+
+        button {
             padding: 1%;
         }
     </style>
@@ -33,7 +34,12 @@
 
         </textarea>
         <br>
+        <button id="button" onclick="handleTrigger()"></button>
         <button onclick="getthevalu()">translate</button>
+        <button onclick="textToAudio()">Speak out</button>
+
     </div>
 </body>
 <script src="main.js"></script>
+<script src="SpeechRecognition.js"></script>
+<script src="peechSynthesis.js"></script>

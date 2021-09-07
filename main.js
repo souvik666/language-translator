@@ -19,6 +19,7 @@ function appenddata(d) {
 
 function getTheValu() {
   let val = document.getElementById(`Langs`).value;
+  localStorage.setItem(`lang`, JSON.stringify(val));
   return val;
 }
 
